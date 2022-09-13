@@ -1,0 +1,7 @@
+const FETCH_GIFS = 'FETCH_GIFS';
+const FETCH_SEARCH_GIFS = 'FETCH_SEARCH_GIFS';
+
+export { 
+    FETCH_GIFS,
+    FETCH_SEARCH_GIFS
+}

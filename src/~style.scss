@@ -1,0 +1,8 @@
+@import './components/common-styles/styles.scss';
+
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

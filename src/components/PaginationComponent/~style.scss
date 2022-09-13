@@ -1,0 +1,67 @@
+.pagesContainer {
+    display: flex;
+    justify-content: flex-end;
+
+    .nextPageWrapper {
+        width: 33%;
+        display: flex;
+        justify-content: center;
+        align-items: center
+        ;
+        button {
+            min-width: 240px;
+            padding: 20px 27px;
+            font-size: 24px;
+            text-align: left;
+            line-height: 36px;
+            letter-spacing: 0.1em;
+            border: none;
+            border-radius: 10px;
+            background: url('../../img/arrowRight.svg') no-repeat 185px;
+            background-color: #252728;
+        }
+    }
+    .pagesWrapper {
+        width: 33%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 12px;
+        span {
+            color:rgba(255, 255, 255, 0.25);
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            letter-spacing: 0.05em;
+        }
+        div { 
+            display: flex;
+            gap: 4px;
+            
+            button {
+                width: 34px;
+                height: 34px;
+                border: none;
+                border-radius: 6px;
+            }
+
+            .prevPage {
+                background: url('../../img/prevPageIcon.svg') no-repeat center;
+            }
+            .nextPage {
+              background: url('../../img/nextPageIcon.svg') no-repeat center;
+            }
+            .prevPage, .nextPage {
+                background-color: #1F2123;
+            }
+            .count {
+                font-size: 20px;
+                font-weight: 600;
+                letter-spacing: 0.05em;
+                background: #393A3E;
+
+            }
+        }
+    }
+
+}

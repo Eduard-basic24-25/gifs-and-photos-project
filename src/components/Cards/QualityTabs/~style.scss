@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    gap: 70px;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.latest {
+    position: relative;
+}
+.latest::before {
+    content: '';
+    display: block;
+    width: 9px;
+    height: 9px;
+    background-color: #FF282F;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    right: -9px;
+}
