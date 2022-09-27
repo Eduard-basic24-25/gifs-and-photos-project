@@ -8,7 +8,10 @@
 .latest {
     position: relative;
 }
-.latest::before {
+.popular {
+    position: relative;
+}
+.activeLatest::after {
     content: '';
     display: block;
     width: 9px;
@@ -19,3 +22,15 @@
     top: 0px;
     right: -9px;
 }
+.activePopular::after {
+    content: '';
+    display: block;
+    width: 9px;
+    height: 9px;
+    background-color: #FF282F;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    right: -9px;
+}
+

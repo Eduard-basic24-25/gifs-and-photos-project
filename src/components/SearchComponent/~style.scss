@@ -26,12 +26,15 @@
             height: 64px;
             border-radius: 10px;
             background: #252728;
-            background-image: url('../img/searchIcon.svg');
+            background-image: url('../../img/searchIcon.svg');
             background-repeat: no-repeat;
-            background-position: 630px center;
+            background-position: 620px center;
             border: none;
             padding: 20px 30px 10px 150px;
             font-size: 1.7em;
+        }
+        input[type=search]:focus {
+            background-image: none;
         }
         select { 
             height: 50px;

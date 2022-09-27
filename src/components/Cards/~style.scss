@@ -12,6 +12,11 @@
         text-align: center;
         padding: 24px;
         border-radius: 24px;
+        .loader {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+        }
         figure {
             height: 280px;
             // background: url('./test.jpg') no-repeat;

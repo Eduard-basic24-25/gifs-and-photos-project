@@ -20,6 +20,9 @@
             background: url('../../img/arrowRight.svg') no-repeat 185px;
             background-color: #252728;
         }
+        .disabled{ 
+            opacity: 0.25;
+        }
     }
     .pagesWrapper {
         width: 33%;
@@ -60,6 +63,9 @@
                 letter-spacing: 0.05em;
                 background: #393A3E;
 
+            }
+            .disabled{ 
+                opacity: 0.25;
             }
         }
     }
